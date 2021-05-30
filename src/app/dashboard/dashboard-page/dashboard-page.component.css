@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  padding: 1.5rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+  column-gap: 1.25rem;
+  justify-content: center;
+}
